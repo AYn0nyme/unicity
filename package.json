@@ -1,0 +1,23 @@
+{
+  "name": "unicity",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsc && cd dist && node index.js",
+    "build": "tsc"
+  },
+  "module": "es2022",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "env": "^0.0.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.10"
+  }
+}
