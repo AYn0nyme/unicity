@@ -1,1 +1,1 @@
-nohup npm run test &
+git pull && nohup npm run test &
